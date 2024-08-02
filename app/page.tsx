@@ -21,7 +21,7 @@ export default function Home() {
         <div className="pt-[15%]">
           <h1 className="hidden">Eric John Ariate</h1>
           <span className="text-[#3C3C3C] font-black text-[75px]">I'm a</span>
-          <div className="font-black text-[75px] leading-none">
+          <div className="font-black text-[75px] leading-none text-white">
             <Typewriter
               options={{
                 strings: ["developer", "designer"],
