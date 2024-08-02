@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="h-screen bg-[#1A1A1A] w-[80%] max-w-7xl mx-auto my-0 overflow-hidden relative">
       <Image
-        className="absolute right-0 bottom-0 h-[85%] w-auto grayscale brightness-80"
+        className="absolute right-0 bottom-0 h-[85%] w-auto grayscale brightness-[75%]"
         src={"/portfolio-hero.png"}
         alt="hero-bg"
         width={1920}

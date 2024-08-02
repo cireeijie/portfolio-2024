@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Eric John Ariate",
+  title: "Eric John Ariate | Developer & Designer",
   description: "Developer & Designer",
 };
 
