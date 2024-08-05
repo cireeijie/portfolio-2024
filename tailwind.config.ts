@@ -8,6 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        "slide-in": "slide-in 0.5s ease-out",
+      },
+      keyframes: {
+        "slide-in": {
+          "0%": {
+            "-webkit-transform": "translateX(-100%)",
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            "-webkit-transform": "translateX(0%)",
+            transform: "translateX(0%)",
+          },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

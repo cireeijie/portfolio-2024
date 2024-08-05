@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MainHeader() {
   return (
-    <div className="flex justify-between items-center py-10">
+    <div className="flex justify-between items-center py-10 fixed top-0 left-0 right-0 w-[80%] max-w-7xl mx-auto my-0">
       <div className="w-[50px]">
         <svg
           className="w-[50px]"
