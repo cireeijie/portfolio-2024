@@ -95,7 +95,7 @@ export default function AboutMe() {
               <div className="flex gap-5">
                 <div className="flex flex-col text-sm leading-7 tracking-wide">
                   <Image
-                    className="max-h-14 w-auto mb-5"
+                    className="max-h-12 w-auto mb-5"
                     src={item.image}
                     alt={item.school}
                     width={1920}
@@ -104,7 +104,7 @@ export default function AboutMe() {
                   <div className="flex flex-col mb-5">
                     <h3 className="text-2xl font-bold">{item.school}</h3>
                     <span className="">{item.address}</span>
-                    <span>{item.degree}</span>
+                    <span className="mt-5">{item.degree}</span>
                     <span>{item.year}</span>
                   </div>
                   <div>
@@ -112,9 +112,7 @@ export default function AboutMe() {
                       <h3 className="text-2xl font-bold">Achievements</h3>
                     )}
                     {item.achievements.map((achievement) => (
-                      <ul>
-                        <li>{achievement}</li>
-                      </ul>
+                      <div key={achievement}>{achievement}</div>
                     ))}
                   </div>
                 </div>
