@@ -14,8 +14,8 @@ const menu = [
   },
   {
     id: 2,
-    name: "Experience",
-    url: "/experience",
+    name: "Profile",
+    url: "/profile",
   },
   {
     id: 3,

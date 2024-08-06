@@ -4,6 +4,7 @@ import React from "react";
 import { useParams } from "next/navigation";
 import { motion as m } from "framer-motion";
 import AboutMe from "../components/AboutMe";
+import Profile from "../components/Profile";
 
 const menu = [
   {
@@ -14,8 +15,9 @@ const menu = [
   },
   {
     id: 2,
-    name: "Experience",
-    url: "/experience",
+    name: "Profile",
+    url: "/profile",
+    component: <Profile />,
   },
   {
     id: 3,
